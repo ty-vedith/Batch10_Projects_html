@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+</head>
+
+<body>
+    <form action="" method="POST"></form>
+    <h1>Application Form</h1>
+    <table border="2">
+        <tr>
+            <th>APPLICANT NAME: </th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>FATHER'S NAME: </th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>MOTHER'S NAME: </th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>DATE OF BIRTH: </th>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>EMAIL ID: </th>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <th>CONTACT NO. </th>
+            <td><input type="number" placeholder="+91" pattern="[0-9]{10}">
+            </td>
+        </tr>
+        <tr>
+            <th>GENDER </th>
+            <td><input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <th>ADDRESS</th>
+            <td><input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th>STATE</th>
+            <td><label for="STATE"></label>
+
+                <select name="STATE" id="STATE">
+                    <option value="KARNATAKA">KARNATAKA</option>
+                    <option value="TAMIL NADU">TAMIL NADU</option>
+                    <option value="KERALA">KERALA</option>
+                    <option value="ANDRA PRADESH">ANDRA PRADESH</option>
+                </select>
+            </td>
+            
+        </tr>
+        <tr>
+            <th>PINCODE</th>
+            <td><input type="number" placeholder="570023">
+            </td>
+        </tr>
+        <tr>
+            <th>PHOTO </th>
+            <td><input type="file" id="photo">
+            </td>
+        </tr>
+        <tr>
+            <th>SIGNATURE </th>
+            <td><input type="file" id="sign">
+            </td>
+        </tr>
+        
+    </table>
+    <BUtton type="submit">SUBMIT</BUtton>
+    
+
+</body>
+
+</html>
